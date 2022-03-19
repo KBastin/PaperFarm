@@ -198,7 +198,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 263372527}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44493d542571db44fa2e894bb8d4c8e6, type: 3}
+  m_Script: {fileID: 11500000, guid: f88f9f9231846cd4f90e0224c08c623e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   noises:
@@ -391,7 +391,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 330893694}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44493d542571db44fa2e894bb8d4c8e6, type: 3}
+  m_Script: {fileID: 11500000, guid: 1a0cb54f67d8ac041bc5b12b1cc96eaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   noises:
@@ -532,15 +532,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4225525764850970, guid: a14fff62ccb8dfb4cb30aa2440d7e680, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.002861
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4225525764850970, guid: a14fff62ccb8dfb4cb30aa2440d7e680, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.16
+      value: -5.44
       objectReference: {fileID: 0}
     - target: {fileID: 4225525764850970, guid: a14fff62ccb8dfb4cb30aa2440d7e680, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.92387956
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4225525764850970, guid: a14fff62ccb8dfb4cb30aa2440d7e680, type: 3}
       propertyPath: m_LocalRotation.x
@@ -548,7 +548,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4225525764850970, guid: a14fff62ccb8dfb4cb30aa2440d7e680, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.38268343
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4225525764850970, guid: a14fff62ccb8dfb4cb30aa2440d7e680, type: 3}
       propertyPath: m_LocalRotation.z
@@ -560,7 +560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4225525764850970, guid: a14fff62ccb8dfb4cb30aa2440d7e680, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 45
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 4225525764850970, guid: a14fff62ccb8dfb4cb30aa2440d7e680, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -586,7 +586,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 840999051}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44493d542571db44fa2e894bb8d4c8e6, type: 3}
+  m_Script: {fileID: 11500000, guid: ff23b665b89657a4d8b3d39bf954d67a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   noises:
@@ -860,7 +860,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1565961165}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44493d542571db44fa2e894bb8d4c8e6, type: 3}
+  m_Script: {fileID: 11500000, guid: b8f71d5c12e2e194f883f88157560c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   noises:
@@ -1055,7 +1055,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1575297542}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44493d542571db44fa2e894bb8d4c8e6, type: 3}
+  m_Script: {fileID: 11500000, guid: 0b5883492b612b7478df023c11f4c349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   noises:
@@ -1190,15 +1190,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4941743527270764, guid: fb573fe406c53c740acf51407165ee68, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.06
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 4941743527270764, guid: fb573fe406c53c740acf51407165ee68, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.011705
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4941743527270764, guid: fb573fe406c53c740acf51407165ee68, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.64
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 4941743527270764, guid: fb573fe406c53c740acf51407165ee68, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1248,13 +1248,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1634495411}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44493d542571db44fa2e894bb8d4c8e6, type: 3}
+  m_Script: {fileID: 11500000, guid: c85804d0d1f0d074eae7b7f4fc4c7450, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   noises:
   - {fileID: 8300000, guid: db9784ac8883e2444846eb1ae803b203, type: 3}
   - {fileID: 8300000, guid: e2312e53a0d287844b584df9d5e975dc, type: 3}
   - {fileID: 8300000, guid: 9b4ccd00e885b1342b6ef09fbf951d7b, type: 3}
+  xRange: 3
 --- !u!82 &1634495413
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1628,7 +1629,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1956228721}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44493d542571db44fa2e894bb8d4c8e6, type: 3}
+  m_Script: {fileID: 11500000, guid: a46a4515270c54643ac6f224b193fd85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   noises:
