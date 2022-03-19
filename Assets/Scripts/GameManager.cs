@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    // ENCAPSULATION :
     public static GameManager Instance { get; private set; }
 
     public string Name;
