@@ -11,6 +11,7 @@ public class MenuHandler : MonoBehaviour
 
     public void PlayGame()
     {
+        GameManager.Instance.Name = usernameField.text;
         SceneManager.LoadScene(1);
     }
 }
