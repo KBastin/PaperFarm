@@ -5,20 +5,33 @@ using UnityEngine;
 // INHERITANCE
 public class Chicken : Animal
 {
+    [SerializeField]
+    private float maxFlyHeight = 2;
+    private bool isFlying = false;
+
     protected override void Move()
     {
-        throw new System.NotImplementedException();
+        CheckIfFlying();
+        if (isFlying)
+        {
+            transform.Translate(Vector3.up * Time.deltaTime);
+        }
+        else
+        {
+            transform.Translate(Vector3.down * Time.deltaTime);
+        }
     }
 
-    // Start is called before the first frame update
-    void Start()
+    private void CheckIfFlying()
     {
-        
-    }
+        if (transform.position.y > maxFlyHeight)
+        {
+            isFlying = false;
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (transform.position.y < 0)
+        {
+            isFlying = true;
+        }
     }
 }

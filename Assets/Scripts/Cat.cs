@@ -9,7 +9,6 @@ public class Cat : Animal
     private float xRange = 3;
     private bool isHeadingRight = true;
 
-
     protected override void Move()
     {
         CheckDirection();
@@ -34,17 +33,5 @@ public class Cat : Animal
             gameObject.transform.Rotate(new Vector3(0, 180));
             isHeadingRight = false;
         }
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        Move();
     }
 }

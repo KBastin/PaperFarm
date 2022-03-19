@@ -20,5 +20,12 @@ public abstract class Animal : MonoBehaviour
         audioSource.Play();
     }
 
+    private void Update()
+    {
+        // POLYMORPHISM
+        Move();
+    }
+
+    // ABSTRACTION
     protected abstract void Move();
 }

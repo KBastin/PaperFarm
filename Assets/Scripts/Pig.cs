@@ -5,20 +5,23 @@ using UnityEngine;
 // INHERITANCE
 public class Pig : Animal
 {
+    [SerializeField]
+    private float zRange = 2;
     protected override void Move()
     {
-        throw new System.NotImplementedException();
+        CheckDirection();
+        transform.Translate(Vector3.right * Time.deltaTime);
     }
 
-    // Start is called before the first frame update
-    void Start()
+    private void CheckDirection()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (gameObject.transform.position.z < -zRange)
+        {
+            gameObject.transform.Rotate(new Vector3(0, 180));
+        }
+        if (gameObject.transform.position.z > zRange)
+        {
+            gameObject.transform.Rotate(new Vector3(0, 180));
+        }
     }
 }
