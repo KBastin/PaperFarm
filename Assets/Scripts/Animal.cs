@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Animal : MonoBehaviour
+public abstract class Animal : MonoBehaviour
 {
     [SerializeField]
     private List<AudioClip> noises;
@@ -20,15 +20,5 @@ public class Animal : MonoBehaviour
         audioSource.Play();
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    protected abstract void Move();
 }
